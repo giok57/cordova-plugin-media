@@ -145,7 +145,7 @@ public class AudioPlayer implements OnCompletionListener, OnPreparedListener, On
             //this.recorder.setOutputFormat(MediaRecorder.OutputFormat.DEFAULT); // THREE_GPP);
             //this.recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_WB); //AMR_NB);
             this.recorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
-            this.recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
+            this.recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_WB);
             this.recorder.setAudioEncodingBitRate(16);
             this.recorder.setAudioSamplingRate(44100);
             this.recorder.setOutputFile(this.tempFile);
